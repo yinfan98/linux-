@@ -1,0 +1,8 @@
+
+import numpy as np
+import matplotlib.pyplot as plt  
+  
+name_list = ['6','7','8','9','10','11','12','13','14']  
+num_list = [18,33,46,94,45,32,39,46,16]  
+plt.bar(range(len(num_list)), num_list,color='rgb',tick_label=name_list)  
+plt.savefig('plot2.png', format='png')
